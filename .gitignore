@@ -1,0 +1,171 @@
+# ============================================
+# Dependencies & Package Managers
+# ============================================
+node_modules/
+bower_components/
+jspm_packages/
+vendor/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ============================================
+# Environment & Secrets (CRITICAL)
+# ============================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+config/secrets.yml
+.secret
+
+# ============================================
+# Build Outputs & Dist
+# ============================================
+dist/
+build/
+out/
+*.bundle.js
+*.bundle.css
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.output/
+.vercel/
+.netlify/
+
+# ============================================
+# Logs & Debug Files
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.eslintcache
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# IDEs & Editors
+# ============================================
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+
+# ============================================
+# Testing & Coverage
+# ============================================
+coverage/
+*.lcov
+.nyc_output/
+.coverage
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.tox/
+
+# ============================================
+# Database Files
+# ============================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# ============================================
+# Temporary & Cache Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.cache
+.sass-cache/
+
+# ============================================
+# Docker
+# ============================================
+docker-compose.override.yml
+.dockerignore
+
+# ============================================
+# Cloud & Deployment
+# ============================================
+.terraform/
+*.tfstate
+*.tfstate.*
+.serverless/
+
+# ============================================
+# Misc
+# ============================================
+*.orig
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.turbo/
+
+*.pdf
+gen-lang-client-0123974131-6b41444a85f2.json
+node_modules
