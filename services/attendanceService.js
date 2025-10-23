@@ -20,9 +20,13 @@ class AttendanceService {
    */
   async getAttendanceData(startTime, endTime, criteria = "sync_time") {
     try {
+      const currentYear = new Date().getFullYear();
+      const defaultStartTime = `${currentYear}-01-01T00:00:00`;
+      const defaultEndTime = `${currentYear + 1}-12-31T23:59:59`;
+
       const params = {
-        start: "2025-02-1917:29:58",
-        end: "2026-12-0416:10:00",
+        start: defaultStartTime,
+        end: defaultEndTime,
         api_token: this.apiToken,
         per_page: this.perPage,
         criteria: criteria,
